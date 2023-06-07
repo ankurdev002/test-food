@@ -6,6 +6,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+To Run Json File First Install 
+
+###`npm i json-server`
+
+then, 
+below two commands
+
+### `json-server --port 3004 --watch dbnew.json`
+### `json-server --port 3005 --watch dbnew.json`
+Runs the json files locally through which data will be come to UI from json data
+
 ### `npm start`
 
 Runs the app in the development mode.\
