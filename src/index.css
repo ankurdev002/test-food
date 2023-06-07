@@ -1,0 +1,718 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.ing-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  height: 40vh;
+  box-shadow: 0 0 10px #414141;
+}
+.ing-container a span {
+  position: absolute;
+  left: 2.5%;
+  top: 12.5%;
+  font-size: 25px;
+  color: #212121;
+}
+.ing-main-container {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  width: 100%;
+  background: rgb(255, 255, 255);
+}
+
+.ing-main-container .ing-data {
+  display: flex;
+  padding: 1.5% 2.5%;
+  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 0 0 2px #414141;
+}
+
+.ing-main-container .ing-data h2 {
+  color: #212121;
+  padding: 0 0 1% 0;
+}
+.ing-main-container .ing-data h4 {
+  color: rgb(145, 145, 145);
+  font-weight: 300;
+}
+
+.ing-container .left-cont {
+  width: 60%;
+  height: 100%;
+}
+.ing-container .left-cont h1 {
+  padding: 10% 5% 2.5% 5%;
+  color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.ing-container .left-cont h1 span {
+  background: #51c452;
+  color: white;
+  font-size: 40%;
+  padding: 2px 5px 2px 10px;
+  border-radius: 5px;
+  display: flex;
+  margin-left: 2.5%;
+  align-items: e;
+  justify-content: end;
+}
+
+.ing-container .left-cont h1 span h6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2.5px;
+}
+.ing-container .left-cont p {
+  color: rgb(145, 145, 145);
+  padding: 0 5%;
+  width: 75%;
+}
+.ing-main-container .vegetables {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5% 2.5%;
+  padding-bottom: 0;
+}
+
+.ing-main-container .vegetables .veg-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ing-main-container .vegetables .veg-details h4 {
+  color: #464646;
+  font-weight: 300;
+  padding: 0.5% 0;
+}
+.ing-main-container .vegetables h3 {
+  color: #212121;
+  padding-bottom: 1%;
+}
+
+.ing-main-container .spices {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5% 2.5%;
+  padding-bottom: 0;
+}
+
+.ing-main-container .spices .spic-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ing-main-container .spices .spic-details h4 {
+  color: #464646;
+  font-weight: 300;
+  padding: 0.5% 0;
+}
+.ing-main-container .spices h3 {
+  color: #212121;
+  padding-bottom: 1%;
+}
+.ing-container .left-cont h5 {
+  color: #212121;
+  padding: 0 5%;
+  font-weight: 400;
+  padding-top: 2.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ing-container .left-cont h5 span {
+  padding: 3px;
+  padding-bottom: 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ing-container .right-cont {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.ing-container .right-cont img {
+  margin-top: 10%;
+  height: 50vh;
+  width: 100%;
+}
+
+.ing-main-container .appliance {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5% 2.5%;
+  padding-bottom: 0;
+}
+
+.ing-main-container .appliance h2 {
+  padding-top: 1%;
+  padding-bottom: 1.5%;
+}
+
+.ing-main-container .appliance .appliance-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-bottom: 4%;
+}
+.ing-main-container .appliance .appliance-content .app-details {
+  padding: 2%;
+  background: #f5f5f5;
+  text-align: center;
+  height: 250px;
+  width: 200px;
+}
+
+.ing-main-container .appliance .appliance-content .app-details img {
+  height: 150px;
+  width: 100px;
+}
+.ing-main-container .appliance .appliance-content .app-details h6 {
+  font-weight: 300;
+  font-size: 120%;
+  padding: 1% 0;
+}
+/* star-chef start */
+.container {
+  height: 100%;
+  width: 100%;
+}
+header {
+  position: relative;
+  height: 50vh;
+  top: 0;
+  width: 100%;
+  background: white;
+}
+
+header .head-fixed {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header .head-fixed .top-black {
+  height: 10vh;
+  background: #212121;
+}
+
+header .head-fixed .calender-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  position: relative;
+  background: white;
+  margin: -2.5% 5%;
+  border-radius: 10px;
+  padding: 0 10%;
+  box-shadow: 0 5px 5px rgb(151, 151, 151);
+}
+
+header .head-fixed .calender-data h4 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  display: flex;
+}
+
+header .head-fixed .category {
+  display: flex;
+  padding: 4% 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .head-fixed .category .button {
+  padding: 2px 20px;
+  border-radius: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border: 1px solid #989898;
+  color: #989898;
+  background: transparent;
+  cursor: pointer;
+}
+header .head-fixed .category .current {
+  background: #f5f5f5;
+  border: 2px solid #ffc078;
+  color: #f5f5f5;
+  padding: 2px 20px;
+  color: #989898;
+  border-radius: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+header .head-fixed .category .button:hover {
+  background: #ffc078;
+  color: #f5f5f5;
+  border: 1px solid #ffc078;
+}
+
+header .head-fixed .dishes {
+  display: flex;
+  align-items: center;
+  padding: 1% 10%;
+  justify-content: space-between;
+}
+
+header .head-fixed .dishes h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  border: 1px solid #ffc078;
+  width: 120px;
+  border-radius: 50%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-weight: 300;
+
+  text-align: center;
+  letter-spacing: 1px;
+  box-shadow: 0 0 0 2px #f3f5f6 inset;
+}
+
+header .head-fixed .dish-heading {
+  padding: 0 6% 1% 6%;
+}
+
+.recommended {
+  position: relative;
+  background: white;
+
+  width: 100%;
+  padding: 1% 6%;
+}
+
+.recommended .top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.recommended .top-content h4 {
+  font-size: 150%;
+}
+.recommended .top-content button {
+  color: white;
+  background: #212121;
+  padding: 8px 30px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  font-size: 120%;
+  letter-spacing: 1px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.recommended .food-dish {
+  display: flex;
+  flex-direction: column;
+}
+.recommended .food-dish .food-head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.recommended .food-dish .food-head h4 {
+  font-weight: 400;
+  padding: 1% 0;
+  font-size: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 1%;
+}
+.recommended .food-dish .food-head h4 img {
+  height: 15px;
+  width: 15px;
+}
+
+.recommended .food-dish .food-head h4 span {
+  background: #51c452;
+  color: white;
+  font-size: 80%;
+  padding: 2px 5px 2px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recommended .food-dish .food-head h4 span h6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2.5px;
+}
+.recommended .food-dish .ref-content {
+  display: flex;
+  padding: 1%;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  box-shadow: 1px 0px 0px rgba(122, 122, 122, 0.7);
+}
+
+.recommended .food-dish .ref-content img {
+  height: 100px;
+  width: 100px;
+}
+
+.recommended .food-dish .ing-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+
+.recommended .food-dish .ing-list h4 {
+  font-weight: 300;
+  font-size: 100%;
+  padding: 6% 0;
+}
+
+.recommended .food-dish .ing-list button {
+  background: transparent;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 0;
+  color: #ffc078;
+  font-weight: 600;
+  cursor: pointer;
+}
+.recommended .food-dish .ing-list button a {
+  color: #ffc078;
+  font-size: 100%;
+  padding-right: 5px;
+}
+.recommended .food-dish .description {
+  padding: 2% 0;
+}
+.recommended .food-dish .description h5 {
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: #8d8d8d;
+}
+
+.recommended .right-img {
+  margin: 2% auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 25%;
+  right: 6%;
+  padding: 4% 0;
+  position: absolute;
+  height: 175px;
+  width: 175px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1%;
+  border-radius: 10px;
+  background-color: #4646461c;
+}
+
+.recommended .right-img button {
+  bottom: -10px;
+  right: 25%;
+  background: white;
+  color: #ffc078;
+  box-shadow: 0 0 2px #464646;
+  padding: 4px 26px;
+  position: absolute;
+  font-weight: 600;
+  cursor: pointer;
+  outline: 0;
+  border: 1px solid #ffc078;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recommended .food-data {
+  box-shadow: 0px 15px 5px -15px #111;
+}
+
+.selected-items {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  bottom: 5%;
+}
+
+.selected-items button {
+  border: 0;
+  outline: 0;
+  padding: 10px 35px;
+  font-size: 125%;
+  font-weight: 300;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  background: #212121;
+  color: white;
+  cursor: pointer;
+}
+
+.selected-items button a {
+  color: white;
+}
+
+.data-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.data-app h6 {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    position: fixed;
+    height: 35vh;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    background: white;
+    box-shadow: 0 0 5px black;
+  }
+  header .head-fixed .top-black {
+    height: 7.5vh;
+    background: #212121;
+  }
+  header .head-fixed .calender-data {
+    margin: -5% 5%;
+    top: -5%;
+  }
+  header .head-fixed .category {
+    display: flex;
+    padding: 5% 10%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  header .head-fixed .category .current {
+    font-size: 12px;
+    padding: 4px 15px;
+  }
+  header .head-fixed .category .button {
+    font-size: 12px;
+    padding: 4px 15px;
+  }
+
+  header .head-fixed .dishes {
+    display: flex;
+    align-items: center;
+    padding: 1% 6%;
+    justify-content: space-between;
+  }
+
+  header .head-fixed .dishes h4 {
+    height: 75px;
+    width: 75px;
+    font-size: 12px;
+  }
+
+  .recommended {
+    background: white;
+    width: 100%;
+    padding: 1% 6%;
+    margin-top: 85%;
+    z-index: 1;
+    height: auto;
+    /* overflow: scroll; */
+  }
+
+  .recommended .top-content h4 {
+    font-size: 125%;
+  }
+
+  .recommended .top-content button {
+    padding: 6px 24px;
+
+    font-size: 90%;
+  }
+
+  .recommended .food-dish .food-head h4 {
+    padding: 2% 0;
+
+    font-size: 100%;
+
+    padding-right: 1%;
+  }
+
+  .recommended .food-dish .ref-content {
+    justify-content: space-around;
+    width: 30%;
+    padding: 0 5% 0 0;
+  }
+
+  .data-app {
+    padding: 6%;
+  }
+
+  .recommended .food-dish .ref-content img {
+    height: 30px;
+    width: 20px;
+  }
+
+  .data-app h6 {
+    font-size: 50%;
+    letter-spacing: 0;
+  }
+
+  .recommended .right-img {
+    height: 100px;
+    width: 100px;
+    padding: 0;
+  }
+
+  .recommended .food-dish .ing-list {
+    padding-left: 1%;
+    width: 25%;
+  }
+
+  .recommended .food-dish .food-head h4 {
+    font-size: 90%;
+  }
+
+  .recommended .food-dish .ing-list button {
+    font-size: 75%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .recommended .right-img button {
+    padding: 4px 15px;
+    right: 16%;
+  }
+
+  .recommended .food-dish .description h5 {
+    font-size: 0.8rem;
+    width: 60%;
+  }
+
+  .ing-container {
+    height: 25vh;
+  }
+
+  .ing-container .left-cont {
+    width: 75%;
+  }
+
+  .ing-container .left-cont h1 {
+    font-size: 150%;
+    padding-top: 25%;
+    padding-left: 10%;
+  }
+  .ing-container .left-cont p {
+    width: 100%;
+    padding-left: 10%;
+  }
+
+  .ing-container .left-cont h5 {
+    padding-left: 8%;
+  }
+
+  .ing-container .right-cont img {
+    height: 20vh;
+    width: 60%;
+    position: absolute;
+    right: -20%;
+    bottom: -20%;
+  }
+
+  .ing-main-container .ing-data {
+    padding: 3.5% 6%;
+  }
+  .ing-main-container .ing-data h2 {
+    font-size: 110%;
+  }
+
+  .ing-main-container .ing-data h4 {
+    font-size: 80%;
+  }
+
+  .ing-main-container .vegetables {
+    padding: 3.5% 6%;
+  }
+
+  .ing-main-container .vegetables h3 {
+    font-size: 100%;
+  }
+
+  .ing-main-container .vegetables .veg-details h4 {
+    font-size: 90%;
+    padding: 1% 0;
+  }
+
+  .ing-main-container .spices h3 {
+    font-size: 100%;
+    padding: 0 3.5%;
+    padding-bottom: 1%;
+  }
+
+  .ing-main-container .spices .spic-details h4 {
+    font-size: 90%;
+    padding: 1.5% 3.5%;
+    padding-bottom: 1%;
+  }
+
+  .ing-main-container .appliance h2 {
+    padding-left: 3.5%;
+    padding-bottom: 5%;
+    font-size: 105%;
+  }
+
+  .ing-main-container .appliance .appliance-content .app-details {
+    height: 150px;
+    width: 100px;
+  }
+
+  .ing-main-container .appliance .appliance-content .app-details img {
+    height: 100px;
+    width: 50px;
+  }
+
+  .ing-main-container .appliance .appliance-content .app-details h6 {
+    font-weight: 300;
+    font-size: 80%;
+  }
+}

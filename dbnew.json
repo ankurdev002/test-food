@@ -1,0 +1,23 @@
+{
+  "foodname":{"name": "Masala Mughlai",
+  "id": 1,
+  "rating":4.2,
+  "description":"Mughlai Masala is a style of cookery developed in the Indian Subcontinent by the kitchens of the Mughal Empire",
+  "timeToPrepare": "1 Hour"},
+  "ingredients": {
+    "vegetables": [
+      { "name": "Cauliflower", "quantity": "1" },
+      { "name": "Tomato", "quantity": "10" },
+      { "name": "Spinach", "quantity": "1/2 Kg" }
+    ],
+    "spices": [
+      { "name": "Coriander", "quantity": "100 gm" },
+      { "name": "Mustard Oil", "quantity": "1/2 litres" }
+    ],
+    "appliances": [
+      { "name": "Refrigerator", "image": "https://i.ibb.co/ysX0yv8/app.png" },
+      { "name": "Microwave", "image": "https://i.ibb.co/4Kt76g3/micro.png" },
+      { "name": "Stove", "image": "https://i.ibb.co/ZSHqd2d/stove.png" }
+    ]
+  }
+}
